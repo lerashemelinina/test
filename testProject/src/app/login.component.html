@@ -1,0 +1,35 @@
+
+<div class="my-container">
+  <form #form="ngForm" novalidate>
+
+      <h5><b>USER LOGIN</b></h5>
+
+    <div class="form-group">
+      <label class="control-label">Username:</label>
+      <input type="text" class="form-control" placeholder="Username"
+            [(ngModel)]="username" required
+            name="username">
+    </div>
+
+    <div class="form-group">
+      <label class="control-label">Password:</label>
+      <input type="password" class="form-control"  placeholder="Password"
+             [(ngModel)]="password" required 
+             name="password">
+    </div>
+
+    <button class="btn btn-default" [disabled]="form.invalid" (click)="login()"><b>LOGIN</b></button>
+
+    <div class="alert alert-danger" role="alert" *ngIf="error">
+        <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+        <span class="sr-only">Error:</span>
+        {{error.userMessage}}
+      </div>
+
+    <div class="a">
+    <a routerLink="/register">Register</a>
+  </div>
+</form>
+</div>
+
+

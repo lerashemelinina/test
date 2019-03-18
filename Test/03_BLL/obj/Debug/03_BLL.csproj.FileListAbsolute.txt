@@ -1,0 +1,17 @@
+C:\Users\lera\source\repos\Test\03_BLL\bin\Debug\03_BLL.dll
+C:\Users\lera\source\repos\Test\03_BLL\bin\Debug\03_BLL.pdb
+C:\Users\lera\source\repos\Test\03_BLL\bin\Debug\02_BOL.dll
+C:\Users\lera\source\repos\Test\03_BLL\bin\Debug\02_BOL.pdb
+C:\Users\lera\source\repos\Test\03_BLL\obj\Debug\03_BLL.csprojAssemblyReference.cache
+C:\Users\lera\source\repos\Test\03_BLL\obj\Debug\03_BLL.csproj.CoreCompileInputs.cache
+C:\Users\lera\source\repos\Test\03_BLL\obj\Debug\03_BLL.csproj.CopyComplete
+C:\Users\lera\source\repos\Test\03_BLL\obj\Debug\03_BLL.dll
+C:\Users\lera\source\repos\Test\03_BLL\obj\Debug\03_BLL.pdb
+C:\Users\lera\source\repos\Test\03_BLL\bin\Debug\03_BLL.dll.config
+C:\Users\lera\source\repos\Test\03_BLL\bin\Debug\01_DAL.dll
+C:\Users\lera\source\repos\Test\03_BLL\bin\Debug\EntityFramework.dll
+C:\Users\lera\source\repos\Test\03_BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lera\source\repos\Test\03_BLL\bin\Debug\01_DAL.pdb
+C:\Users\lera\source\repos\Test\03_BLL\bin\Debug\01_DAL.dll.config
+C:\Users\lera\source\repos\Test\03_BLL\bin\Debug\EntityFramework.xml
+C:\Users\lera\source\repos\Test\03_BLL\bin\Debug\EntityFramework.SqlServer.xml

@@ -1,0 +1,6 @@
+C:\Users\lera\source\repos\Test\02_BOL\bin\Debug\02_BOL.dll
+C:\Users\lera\source\repos\Test\02_BOL\bin\Debug\02_BOL.pdb
+C:\Users\lera\source\repos\Test\02_BOL\obj\Debug\02_BOL.csproj.CoreCompileInputs.cache
+C:\Users\lera\source\repos\Test\02_BOL\obj\Debug\02_BOL.dll
+C:\Users\lera\source\repos\Test\02_BOL\obj\Debug\02_BOL.pdb
+C:\Users\lera\source\repos\Test\02_BOL\obj\Debug\02_BOL.csprojAssemblyReference.cache

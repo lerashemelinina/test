@@ -1,0 +1,41 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.my-container {
+    padding-top:10%;
+    padding-right: 40%;
+    padding-left: 15%;
+}
+
+.btn-default {
+    width:100%;
+    background-color: darkorange;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.a{
+    text-align: center;
+    font-weight: bold;  
+}
+
+a:-webkit-any-link{
+    color: black !important;
+}
+
+.invalid-feedback{
+    color: darkred;
+    font-style: italic;
+    margin-top: 0px;
+    font-size: 12px;
+}
+
+
+.pop-up{
+    background-color: #ffc000;
+    color: black;   
+}
+
+body{
+    background-color:#4472c4;
+}
+

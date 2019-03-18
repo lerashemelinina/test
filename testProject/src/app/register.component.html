@@ -1,0 +1,67 @@
+
+<div class="my-container">
+    <form novalidate
+          (submit)="save()"
+          [formGroup]="userForm"
+          #myform="ngForm">
+
+          <h5><b>REGISTER</b></h5>
+
+        <label class="control-label">Username:</label>
+        <div class="form-group" [class.has-error]="userForm.get('username').errors?.minlength 
+                                                    && myform.submitted">
+          <input type="text" class="form-control" 
+                 placeholder="Username"
+                 formControlName="username">
+
+            <span class="invalid-feedback" *ngIf="userForm.get('username').errors?.minlength 
+                                                    && myform.submitted">
+                                                  
+                Username must be at least 3 caracters long.  
+            </span>
+        </div> 
+
+
+        <label class="control-label" >Email</label>
+        <div class="form-group" [class.has-error]="userForm.get('email').errors?.email
+                                                    &&myform.submitted">
+                
+                <input type="email" class="form-control" 
+                       placeholder="Email"
+                       formControlName="email">
+
+              <span class="invalid-feedback" *ngIf="userForm.get('email').errors?.email 
+                                                    && myform.submitted">
+                    Please enter valid email.
+              </span>
+            </div>
+
+
+        <label class="control-label">Password</label>
+        <div class="form-group" [class.has-error]="userForm.get('password').errors?.minlength
+                                                    &&myform.submitted">
+          <input type="password" class="form-control" 
+                 placeholder="Password"
+                 formControlName="password">
+
+            <span class="invalid-feedback" *ngIf="userForm.get('password').errors?.minlength 
+                                                    && myform.submitted">
+                  Password must be at least 3 caracters long.       
+            </span>
+        </div>
+
+       
+        <button class="btn btn-default" type="submit"><b>REGISTER</b></button>
+
+        <div class="alert alert-danger" role="alert" *ngIf="error.userMessage">
+                <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+                <span class="sr-only">Error:</span>
+                {{error.userMessage}}
+              </div>
+
+        <div class="a">
+            <a routerLink="/login">Login</a>
+            </div> 
+
+      </form>
+    </div>
